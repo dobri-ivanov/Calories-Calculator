@@ -1,7 +1,7 @@
 # Calories Calculator
 
 - WinForms (C#) Application used for calculate daily calories intake.
-- Added function to calculate dalily Carbohydrates, Fats and Protein intake, according your aims and requirements.
+- Added function to calculate dalily Carbohydrates, Fats and Proteins intake, according your aims and requirements.
 ## Getting Started
 
 These instructions will give you a copy of the project up and running on
