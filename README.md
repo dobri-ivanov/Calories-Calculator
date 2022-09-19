@@ -44,7 +44,7 @@
 ## Authors
 
   - **Dobri Ivanov** - *C# Developer* -[GitHub](https://github.com/dobri-ivanov)
-  - [Other Projects](https://github.com/dobri-ivanov)
+  - [Other Projects](https://github.com/dobri-ivanov?tab=repositories)
 
 ## License
 [LICENSE.md](https://github.com/dobri-ivanov/Calories-Calculator/blob/main/LICENSE) file for details
