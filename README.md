@@ -1,18 +1,29 @@
+
+<div align = "center">
+    <img src="https://cdn.discordapp.com/attachments/837093180783722536/1021343668654841898/2316949.png" width="20%">
+</div>
+
+
 # Calories Calculator
 
 - WinForms (C#) Application used for calculate daily calories intake.
 - Added function to calculate dalily Carbohydrates, Fats and Proteins intake, according your aims and requirements.
-## Getting Started
+## Usage
 
-These instructions will give you a copy of the project up and running on
-your local machine for development and testing purposes. See deployment
-for notes on deploying the project on a live system.
+- Press Start(Начало) button
+- Enter your values 
+- Enter you active level
+- Press Next(Продължи) buttom
+- Enter your aim
+- Press Confirm(Потвърди) button
+- See you results 
+<img src="https://cdn.discordapp.com/attachments/837093180783722536/1020657423360471090/unknown.png" width="50%">
 
-### Prerequisites
-
-Requirements for the software and other tools to build, test and push 
-- [Example 1](https://www.example.com)
-- [Example 2](https://www.example.com)
+## Results
+#### 1-st Line - Daily *Calories* intake (Calories)
+#### 2-nd Line - Daily *Cabohydrates* intake (Grams)
+#### 3-th Line - Daily *Proteins* intake (Grams)
+#### 4-th Line - Daily *Fats* intake (Grams)
 
 ### Installing
 
