@@ -47,4 +47,4 @@
     [GitHub](https://github.com/dobri-ivanov)
 
 ## License
-[LICENSE.md](LICENSE.md) file for details
+[LICENSE.md](https://github.com/dobri-ivanov/Calories-Calculator/blob/main/LICENSE) file for details
