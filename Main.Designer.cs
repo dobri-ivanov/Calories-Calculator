@@ -112,12 +112,13 @@
             this.labelTitleData.AutoSize = true;
             this.labelTitleData.BackColor = System.Drawing.Color.Transparent;
             this.labelTitleData.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelTitleData.Location = new System.Drawing.Point(431, 143);
+            this.labelTitleData.Location = new System.Drawing.Point(480, 162);
             this.labelTitleData.Name = "labelTitleData";
-            this.labelTitleData.Size = new System.Drawing.Size(298, 29);
+            this.labelTitleData.Size = new System.Drawing.Size(185, 29);
             this.labelTitleData.TabIndex = 5;
-            this.labelTitleData.Text = "Въведете вашите данни";
+            this.labelTitleData.Text = "Enter your data";
             this.labelTitleData.Visible = false;
+            this.labelTitleData.Click += new System.EventHandler(this.labelTitleData_Click);
             // 
             // buttonSubmit
             // 

@@ -66,7 +66,7 @@ namespace CaloriesCalculator
             buttonStart.Visible = false;
 
             //Labels
-            labelTitleData.Text = "Въведете вашите данни";
+            labelTitleData.Text = "Enter you data";
             labelTitleData.Visible = true;
             label1.Visible = true;
             label2.Visible = true;
@@ -190,5 +190,9 @@ namespace CaloriesCalculator
             SetupApplication();
         }
 
+        private void labelTitleData_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
