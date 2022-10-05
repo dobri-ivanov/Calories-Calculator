@@ -45,7 +45,7 @@
             this.buttonBack.Name = "buttonBack";
             this.buttonBack.Size = new System.Drawing.Size(159, 60);
             this.buttonBack.TabIndex = 0;
-            this.buttonBack.Text = "НАЗАД";
+            this.buttonBack.Text = "BACK";
             this.buttonBack.UseVisualStyleBackColor = false;
             this.buttonBack.Click += new System.EventHandler(this.button1_Click);
             // 

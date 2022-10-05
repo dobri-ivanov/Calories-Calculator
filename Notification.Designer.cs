@@ -46,7 +46,7 @@
             this.labelText.Name = "labelText";
             this.labelText.Size = new System.Drawing.Size(301, 48);
             this.labelText.TabIndex = 0;
-            this.labelText.Text = "Невалидна стойност!";
+            this.labelText.Text = "Invalid data!";
             this.labelText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button1
@@ -56,7 +56,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(97, 33);
             this.button1.TabIndex = 1;
-            this.button1.Text = "ОК";
+            this.button1.Text = "OK";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 

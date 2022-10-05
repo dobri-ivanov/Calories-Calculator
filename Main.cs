@@ -127,7 +127,7 @@ namespace CaloriesCalculator
                         break;
                 }
 
-                if (sex == "Мъж")
+                if (sex == "Male")
                 {
                     bmr = (10 * weight) + (6.25 * height) - (5 * age) + 5;
                 }
@@ -138,7 +138,7 @@ namespace CaloriesCalculator
                 bmr *= activityCoeficent;
 
                 //Labels
-                labelTitleData.Text = "Изберете вашата цел";
+                labelTitleData.Text = "Choose your aim";
                 label1.Visible = false;
                 label2.Visible = false;
                 label3.Visible = false;
@@ -161,7 +161,7 @@ namespace CaloriesCalculator
             catch (Exception ex)
             {
                 Notification nf = new Notification();
-                nf.Notify("Невалидни данни!");
+                nf.Notify("Invalid data!");
                 textBoxWeight.Text = "";
                 textBoxHeight.Text = "";
                 textBoxAge.Text = "";
@@ -191,6 +191,10 @@ namespace CaloriesCalculator
         }
 
         private void labelTitleData_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

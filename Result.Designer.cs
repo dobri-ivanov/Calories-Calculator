@@ -44,7 +44,7 @@
             this.buttonBack.Name = "buttonBack";
             this.buttonBack.Size = new System.Drawing.Size(166, 52);
             this.buttonBack.TabIndex = 19;
-            this.buttonBack.Text = "НАЗАД";
+            this.buttonBack.Text = "BACK";
             this.buttonBack.UseVisualStyleBackColor = true;
             this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
@@ -56,7 +56,7 @@
             this.buttonClose.Name = "buttonClose";
             this.buttonClose.Size = new System.Drawing.Size(166, 52);
             this.buttonClose.TabIndex = 20;
-            this.buttonClose.Text = "ЗАТВОРИ";
+            this.buttonClose.Text = "CLOSE";
             this.buttonClose.UseVisualStyleBackColor = true;
             this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
