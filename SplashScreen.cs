@@ -19,7 +19,7 @@ namespace CaloriesCalculator
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            panelStart.Width += 3;
+            panelStart.Width += 5;
             if (panelStart.Width >= 800)
             {
                 timer.Stop();

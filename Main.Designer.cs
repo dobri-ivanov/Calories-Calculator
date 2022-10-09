@@ -230,11 +230,11 @@
             this.comboBoxActivity.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBoxActivity.FormattingEnabled = true;
             this.comboBoxActivity.Items.AddRange(new object[] {
-            "Малко или никаква физическа активност",
-            "Леки упражнения (1-3 дни в седмицата)",
-            "Умерени упражнения (3-5 дни в седмицата)",
-            "Тежки упражнения (6-7 дни в седмицата)",
-            "Много тежки упражнения (два пъти на ден)"});
+            "Little or no physical activity",
+            "Light exercise (1-3 days a week)",
+            "Moderate exercise (3-5 days a week)",
+            "Heavy exercise (6-7 days a week)",
+            "Very heavy exercise (twice a day)"});
             this.comboBoxActivity.Location = new System.Drawing.Point(467, 464);
             this.comboBoxActivity.Name = "comboBoxActivity";
             this.comboBoxActivity.Size = new System.Drawing.Size(542, 37);
@@ -271,8 +271,8 @@
             this.comboBoxAim.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBoxAim.FormattingEnabled = true;
             this.comboBoxAim.Items.AddRange(new object[] {
-            "Отслабване (Понижаване на мазнини)",
-            "Наддаване (Покачване на мускулна маса)"});
+            "Weight Loss (Fat Loss)",
+            "Bulking (Increasing muscle mass)"});
             this.comboBoxAim.Location = new System.Drawing.Point(467, 341);
             this.comboBoxAim.Name = "comboBoxAim";
             this.comboBoxAim.Size = new System.Drawing.Size(542, 37);
