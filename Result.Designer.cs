@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Result));
             this.buttonBack = new System.Windows.Forms.Button();
             this.buttonClose = new System.Windows.Forms.Button();
             this.labelCalories = new System.Windows.Forms.Label();
@@ -50,6 +51,7 @@
             // 
             // buttonClose
             // 
+            this.buttonClose.BackColor = System.Drawing.SystemColors.ControlDark;
             this.buttonClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonClose.ForeColor = System.Drawing.Color.Black;
             this.buttonClose.Location = new System.Drawing.Point(315, 323);
@@ -57,7 +59,7 @@
             this.buttonClose.Size = new System.Drawing.Size(166, 52);
             this.buttonClose.TabIndex = 20;
             this.buttonClose.Text = "CLOSE";
-            this.buttonClose.UseVisualStyleBackColor = true;
+            this.buttonClose.UseVisualStyleBackColor = false;
             this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
             // labelCalories
@@ -108,7 +110,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::CaloriesCalculator.Properties.Resources.Result;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(600, 400);
             this.Controls.Add(this.labelFats);
             this.Controls.Add(this.labelProteins);
