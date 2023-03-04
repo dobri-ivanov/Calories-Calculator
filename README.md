@@ -13,7 +13,7 @@
 - Press Start(Начало) button
 - Enter your values 
 - Enter you active level
-- Press Next(Продължи) buttom
+- Press Next(Продължи) button
 - Enter your aim
 - Press Confirm(Потвърди) button
 - See you results 
